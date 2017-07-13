@@ -35,7 +35,7 @@ class BrunchReplacer {
 
 BrunchReplacer.prototype.brunchPlugin = true;
 BrunchReplacer.prototype.type = 'javascript';
-BrunchReplacer.prototype.pattern = /\.jsx?$/;
+BrunchReplacer.prototype.pattern = /\.(coffee|js|jsx)?$/;
 BrunchReplacer.prototype.defaultEnv = '*';
 
 module.exports = BrunchReplacer;
